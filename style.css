@@ -1,101 +1,86 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 :root {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
-body{
-  background-color: #cecccc;
+body {
+    background-color: #cecccc;
 }
 main {
-  padding: 3rem;
+    padding: 3rem;
 
-  
- 
-  max-width: 90rem;
-  margin: 10rem auto;
-  
-  border-radius: 50px;
-  background: #d8d8d8;
-  box-shadow:  20px 20px 60px #bebebe,
-              -20px -20px 60px #ffffff;
- 
-  
+    max-width: 90rem;
+    margin: 10rem auto;
+
+    border-radius: 50px;
+    background: #d8d8d8;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 main h1 {
-  text-align: center;
-  margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 
-  font-family: 'Staatliches', cursive;
-  font-size: 4rem;
-  font-weight: 400;
-  font-style: normal;
-  
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: normal;
 }
 
-main input {
-  width: 100%;
+main p {
+    width: 100%;
+    height: 70px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
 
-  padding: 3rem;
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
+    border: none;
+    background-color: #cacaca;
+    border-radius: 20px;
 
-  border: none;
-  background-color: #cacaca;
-  border-radius: 20px;
-  
-  font-family: 'Staatliches', cursive;
-  font-size: 3rem;
-  border-radius: 50px;
-background: #e0e0e0;
-box-shadow: inset 5px 5px 10px #bebebe,
-            inset -5px -5px 10px #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
 }
 
 main input::placeholder {
-  font-family: 'Staatliches', cursive;
-  font-size: 3rem;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
 
-  text-align: center;
-
-  
+    text-align: center;
 }
 
-
 main .buttons {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main button {
-  flex: 1 1 18rem;
-  margin: .3rem;
+    flex: 1 1 18rem;
+    margin: 0.3rem;
 
-  padding: 1.5rem;
-  
+    padding: 1.5rem;
 
-  font-family: 'Staatliches', cursive;
-  font-size: 2rem;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
 
-  border: none;
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: inset 20px 20px 60px #bebebe,
-              inset -20px -20px 60px #ffffff;
-
-  
+    border: none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
 }
 
 main button:hover {
-  border-radius: 50px;
-  background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  5px 5px 10px #bebebe,
-               -5px -5px 10px #ffffff;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 
-  cursor: pointer;
+    cursor: pointer;
 }

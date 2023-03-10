@@ -18,38 +18,37 @@
     <body>
         <main>
             <h1>calculadora</h1>
-            <div class="input-wrapper">
-                <input type="number" placeholder="DIGITE SEU CÁLCULO" />
-            </div>
+            <p id="resultado"></p>
 
             <div class="buttons">
-                <button id="porcentagem">%</button>
+                <button id="porcentagem" onclick="insert('%')">%</button>
                 <button id="ce">CE</button>
-                <button id="apagarTudo">C</button>
-                <button id="apagar">
+                <button id="apagarTudo" onclick="clean()">C</button>
+                <button id="apagar" onclick="apagar()">
                     <img src="./assets/icons8-limpar-símbolo-32.png" alt="" />
                 </button>
                 <button>undefined</button>
-                <button id="aoQuadrado">x²</button>
-                <button id="raiz">√</button>
-                <button id="divisao">/</button>
-                <button id="sete">7</button>
-                <button id="oito">8</button>
-                <button id="nove">9</button>
-                <button id="vezes">X</button>
-                <button id="quatro">4</button>
-                <button id="cinco">5</button>
-                <button id="seis">6</button>
-                <button id="menos">-</button>
-                <button id="um">1</button>
-                <button id="dois">2</button>
-                <button id="tres">3</button>
-                <button id="soma">+</button>
+                <button id="aoQuadrado" onclick="insert('x²')">x²</button>
+                <button id="raiz" onclick="insert('√')">√</button>
+                <button id="divisao" onclick="insert('/')">/</button>
+                <button id="sete" onclick="insert('7')">7</button>
+                <button id="oito" onclick="insert('8')">8</button>
+                <button id="nove" onclick="insert('9')">9</button>
+                <button id="vezes" onclick="insert('*')">X</button>
+                <button id="quatro" onclick="insert('4')">4</button>
+                <button id="cinco" onclick="insert('5')">5</button>
+                <button id="seis" onclick="insert('6')">6</button>
+                <button id="menos" onclick="insert('-')">-</button>
+                <button id="um" onclick="insert('1')">1</button>
+                <button id="dois" onclick="insert('2')">2</button>
+                <button id="tres" onclick="insert('3')">3</button>
+                <button id="soma" onclick="insert('+')">+</button>
                 <button>undefined</button>
-                <button id="zero">0</button>
-                <button id="virgula">,</button>
-                <button id="resultado">=</button>
+                <button id="zero" onclick="insert('0')">0</button>
+                <button id="virgula" onclick="insert('.')">.</button>
+                <button id="igual" onclick="calcular()">=</button>
             </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
