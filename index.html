@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Palanquin&family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Palanquin&family=Staatliches&display=swap"
+            rel="stylesheet"
+        />
 
+        <link rel="stylesheet" href="style.css" />
+        <script src="./script.js" defer type="module"></script>
+    </head>
+    <body>
+        <main>
+            <h1>calculadora</h1>
+            <p>ola mundinho</p>
 
-  <link rel="stylesheet" href="style.css">
-  <script src="./script.js" defer type="module"></script>
+            <div class="input-wrapper">
+                <input type="number" placeholder="DIGITE SEU CÁLCULO" />
+            </div>
 
-</head>
-<body>
-  <main>
-    <h1>calculadora</h1>
-
-    <div class="input-wrapper">
-      <input type="number" placeholder="DIGITE SEU CÁLCULO">
-    </div>
-
-
-    <div class="buttons">
-      <button id="porcentagem">%</button>
-      <button id="ce">CE</button>
-      <button id="apagarTudo">C</button>
-      <button id="apagar"><img src="./assets/icons8-limpar-símbolo-32.png" alt=""></button>
-      <button>undefined</button>
-      <button id="aoQuadrado">x²</button>
-      <button id="raiz">√</button>
-      <button id="divisao">/</button>
-      <button id="sete">7</button>
-      <button id="oito">8</button>
-      <button id="nove">9</button>
-      <button id="vezes">X</button>
-      <button id="quatro">4</button>
-      <button id="cinco">5</button>
-      <button id="seis">6</button>
-      <button id="menos">-</button>
-      <button id="um">1</button>
-      <button id="dois">2</button>
-      <button id="tres">3</button>
-      <button id="soma">+</button>
-      <button>undefined</button>
-      <button id="zero">0</button>
-      <button id="virgula">,</button>
-      <button id="resultado">=</button>
-    </div>
-  </main>
-</body>
+            <div class="buttons">
+                <button id="porcentagem">%</button>
+                <button id="ce">CE</button>
+                <button id="apagarTudo">C</button>
+                <button id="apagar">
+                    <img src="./assets/icons8-limpar-símbolo-32.png" alt="" />
+                </button>
+                <button>undefined</button>
+                <button id="aoQuadrado">x²</button>
+                <button id="raiz">√</button>
+                <button id="divisao">/</button>
+                <button id="sete">7</button>
+                <button id="oito">8</button>
+                <button id="nove">9</button>
+                <button id="vezes">X</button>
+                <button id="quatro">4</button>
+                <button id="cinco">5</button>
+                <button id="seis">6</button>
+                <button id="menos">-</button>
+                <button id="um">1</button>
+                <button id="dois">2</button>
+                <button id="tres">3</button>
+                <button id="soma">+</button>
+                <button>undefined</button>
+                <button id="zero">0</button>
+                <button id="virgula">,</button>
+                <button id="resultado">=</button>
+            </div>
+        </main>
+    </body>
 </html>
